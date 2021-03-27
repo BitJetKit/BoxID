@@ -1,4 +1,4 @@
-package UserArrayDef;
+package BoxID;
 
 import java.util.List;
 import java.util.Scanner;
@@ -6,18 +6,18 @@ import java.util.Vector;
 
 /**
  * @author: Bit Jet Kit
- * Title: Calculator
+ * Title: BoxID
  * Date: March 26, 2021
  * Purpose: Make UserArrayDef's primary approach Object Oriented.
  */
-public class Calculator{
+public class BoxID{
     // Declare the fields.
     private int totalBoxes;
     private int boxID;
     private int boxCounter;
 
     // Instantiate a Scanner.
-    Scanner readUserInput = new Scanner(System.in);
+    private Scanner readUserInput = new Scanner(System.in);
         
     // Utilize a Vector: this can be resized dynamically, and without an array's starting static size.
     private List<Integer> myItemList = new Vector<Integer>();
