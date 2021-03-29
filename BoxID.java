@@ -8,7 +8,7 @@ import java.util.Vector;
  * @author: Bit Jet Kit
  * Title: BoxID
  * Date: March 26, 2021
- * Purpose: Make UserArrayDef's primary approach Object Oriented.
+ * Purpose: Make BoxID's primary approach Object Oriented.
  */
 public class BoxID{
     // Declare the fields.

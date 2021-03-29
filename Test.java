@@ -4,7 +4,7 @@ package BoxID;
  * @author: Bit Jet Kit
  * Title: Test
  * Date: March 26, 2021
- * Purpose: Using user input, populate a user-defined array.
+ * Purpose: Using user input, populate a user-defined vector.
  */
 
  public class Test{
