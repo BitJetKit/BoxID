@@ -27,13 +27,16 @@ public class BoxID{
         return totalBoxes;
     }
     public void setTotalBoxes() {
+        // Prompt the user.
+        System.out.println("Enter the total items: ");
+        // Get the total boxes.
         this.totalBoxes = readUserInput.nextInt();
     }
     public int getBoxID() {
         return boxID;
     }
-    public void setBoxID(int boxID) {
-        this.boxID = boxID;
+    public void setBoxID() {
+        this.boxID = readUserInput.nextInt();
     }
     public int getBoxCounter() {
         return boxCounter;
@@ -44,15 +47,16 @@ public class BoxID{
 
     public void setItemList(){       
         // Fill the item boxes.
-        for(boxCounter = 0; boxCounter < totalBoxes; boxCounter++){
+        for(setBoxCounter(0); getBoxCounter() < getTotalBoxes(); boxCounter++){
             System.out.println("Enter the box ID: ");
-            boxID = readUserInput.nextInt();
-            myItemList.add(boxID);  
+            setBoxID();
+            myItemList.add(getBoxID());  
         }
     }
+    
     public String toString(){
-        for(boxCounter = 0; boxCounter < totalBoxes; boxCounter++){
-            System.out.println("Item " + (boxCounter + 1) + " ID: " + myItemList.get(boxCounter));
+        for(setBoxCounter(0); getBoxCounter() < getTotalBoxes(); setBoxCounter(getBoxCounter() + 1)){
+            System.out.println("Item " + (getBoxCounter() + 1) + " ID: " + myItemList.get(getBoxCounter()));
         }
         return "";
     }
