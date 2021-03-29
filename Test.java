@@ -1,9 +1,5 @@
 package BoxID;
 
-import java.util.List;
-import java.util.Scanner;
-import java.util.Vector;
-
 /**
  * @author: Bit Jet Kit
  * Title: Test
@@ -17,8 +13,6 @@ import java.util.Vector;
     public static void main(String[] args) {
         // Instantiate the calculator.
         BoxID boxes = new BoxID();
-        // Prompt the user.
-        System.out.println("Enter the total items: ");
         // Call the calculator 
         boxes.setTotalBoxes();
         boxes.setItemList();
